@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataServer", "DataServer\DataServer.csproj", "{C7898F6A-2841-46CA-A43A-A0DD1AB08A10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTTPServer", "HTTPServer\HTTPServer.csproj", "{B510236D-97B8-4690-9887-1838EFBAB505}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7898F6A-2841-46CA-A43A-A0DD1AB08A10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7898F6A-2841-46CA-A43A-A0DD1AB08A10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7898F6A-2841-46CA-A43A-A0DD1AB08A10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7898F6A-2841-46CA-A43A-A0DD1AB08A10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B510236D-97B8-4690-9887-1838EFBAB505}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B510236D-97B8-4690-9887-1838EFBAB505}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B510236D-97B8-4690-9887-1838EFBAB505}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B510236D-97B8-4690-9887-1838EFBAB505}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\0xDE11A\.nuget\packages\linq2db.mysql\2.4.0\contentFiles\any\any\LinqToDB.Templates\CopyMe.MySql.tt.txt" t="Include" />
+    <e p="C:\Users\0xDE11A\.nuget\packages\linq2db.mysql\2.4.0\contentFiles\any\any\LinqToDB.Templates\DataAnnotations.ttinclude" t="Include" />
+    <e p="C:\Users\0xDE11A\.nuget\packages\linq2db.mysql\2.4.0\contentFiles\any\any\LinqToDB.Templates\DataModel.ttinclude" t="Include" />
+    <e p="C:\Users\0xDE11A\.nuget\packages\linq2db.mysql\2.4.0\contentFiles\any\any\LinqToDB.Templates\EditableObject.ttinclude" t="Include" />
+    <e p="C:\Users\0xDE11A\.nuget\packages\linq2db.mysql\2.4.0\contentFiles\any\any\LinqToDB.Templates\Humanizer.ttinclude" t="Include" />
+    <e p="C:\Users\0xDE11A\.nuget\packages\linq2db.mysql\2.4.0\contentFiles\any\any\LinqToDB.Templates\LinqToDB.MySql.Tools.ttinclude" t="Include" />
+    <e p="C:\Users\0xDE11A\.nuget\packages\linq2db.mysql\2.4.0\contentFiles\any\any\LinqToDB.Templates\LinqToDB.MySql.ttinclude" t="Include" />
+    <e p="C:\Users\0xDE11A\.nuget\packages\linq2db.mysql\2.4.0\contentFiles\any\any\LinqToDB.Templates\LinqToDB.Tools.ttinclude" t="Include" />
+    <e p="C:\Users\0xDE11A\.nuget\packages\linq2db.mysql\2.4.0\contentFiles\any\any\LinqToDB.Templates\LinqToDB.ttinclude" t="Include" />
+    <e p="C:\Users\0xDE11A\.nuget\packages\linq2db.mysql\2.4.0\contentFiles\any\any\LinqToDB.Templates\MultipleFiles.ttinclude" t="Include" />
+    <e p="C:\Users\0xDE11A\.nuget\packages\linq2db.mysql\2.4.0\contentFiles\any\any\LinqToDB.Templates\NotifyDataErrorInfo.ttinclude" t="Include" />
+    <e p="C:\Users\0xDE11A\.nuget\packages\linq2db.mysql\2.4.0\contentFiles\any\any\LinqToDB.Templates\NotifyPropertyChanged.ttinclude" t="Include" />
+    <e p="C:\Users\0xDE11A\.nuget\packages\linq2db.mysql\2.4.0\contentFiles\any\any\LinqToDB.Templates\ObsoleteAttributes.ttinclude" t="Include" />
+    <e p="C:\Users\0xDE11A\.nuget\packages\linq2db.mysql\2.4.0\contentFiles\any\any\LinqToDB.Templates\PluralizationService.ttinclude" t="Include" />
+    <e p="C:\Users\0xDE11A\.nuget\packages\linq2db.mysql\2.4.0\contentFiles\any\any\LinqToDB.Templates\T4Model.ttinclude" t="Include" />
+    <e p="C:\Users\0xDE11A\.nuget\packages\linq2db.mysql\2.4.0\contentFiles\any\any\LinqToDB.Templates\Validation.ttinclude" t="Include" />
+    <e p="C:\Users\0xDE11A\.Rider2018.2\config\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\0xDE11A\.Rider2018.2\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\0xDE11A\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\0xDE11A\.Rider2018.2\system\resharper-host\Local\Transient\ReSharperHost\v182\SolutionCaches\_Kaktus.-1538077003.00" t="ExcludeRecursive" />
+    <e p="E:\projects\kaktus" t="IncludeFlat">
+      <e p="DataServer" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DataServer.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+      </e>
+      <e p="HTTPServer" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Database.cs" t="Include" />
+        <e p="GraphQL.cs" t="Include" />
+        <e p="HTTPServer.csproj" t="IncludeRecursive" />
+        <e p="LinqToDB.Templates" t="Include" />
+        <e p="Model" t="Include">
+          <e p="BudgetChange.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="HTTPServer.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="Util" t="Include">
+          <e p="Resolver.cs" t="Include" />
+        </e>
+        <e p="wwwroot" t="Include" />
+      </e>
+      <e p="Kaktus.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

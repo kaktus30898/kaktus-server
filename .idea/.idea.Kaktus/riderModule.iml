@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="RIDER_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$USER_HOME$/.nuget/packages/linq2db.mysql/2.4.0/contentFiles/any/any/LinqToDB.Templates/CopyMe.MySql.tt.txt" />
+    <content url="file://$USER_HOME$/.nuget/packages/linq2db.mysql/2.4.0/contentFiles/any/any/LinqToDB.Templates/DataAnnotations.ttinclude" />
+    <content url="file://$USER_HOME$/.nuget/packages/linq2db.mysql/2.4.0/contentFiles/any/any/LinqToDB.Templates/DataModel.ttinclude" />
+    <content url="file://$USER_HOME$/.nuget/packages/linq2db.mysql/2.4.0/contentFiles/any/any/LinqToDB.Templates/EditableObject.ttinclude" />
+    <content url="file://$USER_HOME$/.nuget/packages/linq2db.mysql/2.4.0/contentFiles/any/any/LinqToDB.Templates/Humanizer.ttinclude" />
+    <content url="file://$USER_HOME$/.nuget/packages/linq2db.mysql/2.4.0/contentFiles/any/any/LinqToDB.Templates/LinqToDB.MySql.Tools.ttinclude" />
+    <content url="file://$USER_HOME$/.nuget/packages/linq2db.mysql/2.4.0/contentFiles/any/any/LinqToDB.Templates/LinqToDB.MySql.ttinclude" />
+    <content url="file://$USER_HOME$/.nuget/packages/linq2db.mysql/2.4.0/contentFiles/any/any/LinqToDB.Templates/LinqToDB.Tools.ttinclude" />
+    <content url="file://$USER_HOME$/.nuget/packages/linq2db.mysql/2.4.0/contentFiles/any/any/LinqToDB.Templates/LinqToDB.ttinclude" />
+    <content url="file://$USER_HOME$/.nuget/packages/linq2db.mysql/2.4.0/contentFiles/any/any/LinqToDB.Templates/MultipleFiles.ttinclude" />
+    <content url="file://$USER_HOME$/.nuget/packages/linq2db.mysql/2.4.0/contentFiles/any/any/LinqToDB.Templates/NotifyDataErrorInfo.ttinclude" />
+    <content url="file://$USER_HOME$/.nuget/packages/linq2db.mysql/2.4.0/contentFiles/any/any/LinqToDB.Templates/NotifyPropertyChanged.ttinclude" />
+    <content url="file://$USER_HOME$/.nuget/packages/linq2db.mysql/2.4.0/contentFiles/any/any/LinqToDB.Templates/ObsoleteAttributes.ttinclude" />
+    <content url="file://$USER_HOME$/.nuget/packages/linq2db.mysql/2.4.0/contentFiles/any/any/LinqToDB.Templates/PluralizationService.ttinclude" />
+    <content url="file://$USER_HOME$/.nuget/packages/linq2db.mysql/2.4.0/contentFiles/any/any/LinqToDB.Templates/T4Model.ttinclude" />
+    <content url="file://$USER_HOME$/.nuget/packages/linq2db.mysql/2.4.0/contentFiles/any/any/LinqToDB.Templates/Validation.ttinclude" />
+    <content url="file://$MODULE_DIR$/../.." />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
