@@ -38,9 +38,21 @@ namespace HTTPServer
 
         // Привязка метода к функции addChange из GraphQL
         [GraphQLMetadata("addChange")]
-        public Task<int> AddChange(NewBudgetChange change)
+        public Task<int> AddChange(BudgetChangeBody change)
         {
             return this.changes.AddChange(change);
+        }
+        
+        [GraphQLMetadata("saveChange")]
+        public Task<int> SaveChange(int id, BudgetChangeBody change)
+        {
+            return this.changes.SaveChange(id, change);
+        }
+        
+        [GraphQLMetadata("deleteChange")]
+        public Task<int> DeleteChange(int id)
+        {
+            return this.changes.DeleteChange(id);
         }
     }
 }

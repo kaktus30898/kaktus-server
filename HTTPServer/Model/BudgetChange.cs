@@ -24,17 +24,17 @@ namespace HTTPServer.Model
     /**
      * Класс, описывающий тип данных NewBudgetChange из GraphQL
      */
-    public class NewBudgetChange
+    public class BudgetChangeBody
     {
         public string Caption { get; set; }
 
         public double Delta { get; set; }
 
-        public BudgetChange ToChange()
+        public BudgetChange ToChange(int ID = -1)
         {
             return new BudgetChange()
             {
-                ID = -1, 
+                ID = ID, 
                 Caption = Caption,
                 Delta = Delta,
             };
@@ -76,9 +76,20 @@ namespace HTTPServer.Model
         }
 
         // Метод записи нового изменения в базу
-        public Task<int> AddChange(NewBudgetChange change)
+        public Task<int> AddChange(BudgetChangeBody changeBody)
         {
-            return db.InsertAsync(change.ToChange());
+            var change = changeBody.ToChange();
+            return Changes.InsertAsync(() => change);
+        }
+
+        public Task<int> SaveChange(int id, BudgetChangeBody changeBody)
+        {
+            return db.UpdateAsync(changeBody.ToChange(id));
+        }
+
+        public Task<int> DeleteChange(int id)
+        {
+            return Changes.Where(c => c.ID == id).DeleteAsync();
         }
     }
 }

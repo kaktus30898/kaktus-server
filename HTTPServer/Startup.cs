@@ -53,13 +53,15 @@ namespace HTTPServer
                     changes: BudgetChangeManager!
                 }
 
-                input NewBudgetChange {
+                input BudgetChangeBody {
                     caption: String!
                     delta: Float!
                 }
 
                 type Mutation {
-                    addChange(change: NewBudgetChange!): Int!
+                    addChange(change: BudgetChangeBody!): Int!
+                    saveChange(id: Int!, change: BudgetChangeBody!): Int!
+                    deleteChange(id: Int!): Int!
                 }
             ";
             
@@ -71,6 +73,8 @@ namespace HTTPServer
                 builder.Types.Include<Mutation>();
                 builder.Types.Include<BudgetChange>();
                 builder.Types.Include<BudgetChangeManager>();
+//                builder.Types.Include<BudgetChangeBody>();
+                builder.Types.Include<BudgetChangeManager>("MutationBudgetChangeManager");
                 
                 // Предоставляем доступ GraphQL к контейнеру зависимостей приложения
                 builder.DependencyResolver = new Resolver(provider);
@@ -83,6 +87,8 @@ namespace HTTPServer
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+            app.UseHostFiltering();
+            
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
