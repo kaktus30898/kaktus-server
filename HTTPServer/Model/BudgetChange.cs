@@ -78,8 +78,7 @@ namespace HTTPServer.Model
         // Метод записи нового изменения в базу
         public Task<int> AddChange(BudgetChangeBody changeBody)
         {
-            var change = changeBody.ToChange();
-            return Changes.InsertAsync(() => change);
+            return db.InsertAsync(changeBody.ToChange());
         }
 
         public Task<int> SaveChange(int id, BudgetChangeBody changeBody)
